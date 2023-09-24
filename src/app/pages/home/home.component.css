@@ -1,0 +1,16 @@
+.articles{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.articles_right{
+   margin-left: 1.5rem;
+}
+
+header{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}

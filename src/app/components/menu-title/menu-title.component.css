@@ -1,0 +1,18 @@
+
+.container_menu-title{
+    margin: 1rem;
+}
+.container_menu-title > h1{
+    color: #fff;
+    font-size: 110px;
+    margin-top: 1rem; margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'segoe UI';
+}
+
+@media  screen and (max-width:700px) {
+    .container_menu-title > h1{
+        font-size: 50px;
+    }
+}
