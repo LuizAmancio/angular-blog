@@ -1,15 +1,18 @@
 .container_small-card{
     width: 700px;
-    height: 100px;
+    height: 120px;
 
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 }
 
-
+.small-card_img{
+    width: 30%;
+}
 .small-card_img > img{
-    width: 200px;
+    width: 100%;
+    height: 100%;
     border-radius: .3rem;
     margin-right: 1rem;
 }
@@ -18,6 +21,7 @@
    display: flex;
    justify-content: center;
    align-items: center;
+   margin-left: 1rem;
 }
 .small-card_header > h3{
     font-size: 15px;
@@ -25,7 +29,17 @@
 
 @media  screen and (max-width:700px) {
     .container_small-card{
+        width: 100%;
         margin-left: 0;
+    }
+    .small-card_img{
+       width: 85%;
+    }
+    .small-card_header{
+        
+    }
+    .small-card_img > img{
+       width: 100%;
     }
 }
 
